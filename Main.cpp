@@ -3,9 +3,9 @@ using namespace std;
 
 #define ll long long
 
-vector<string> names{"yash","sid","reema","rahul","vinit","samiksha","harshada","kunwar"};
-vector<ll> contacts{7709660260,7887439040,9657485942,9922469600,8446152560,8767513810,7083071610,7507066260  };
-vector<ll> freq{5, 9, 15, 9, 6, 3, 8, 7};
+vector<string> names{"yash","sid","reema","vinit"};
+vector<ll> contacts{7709660260,7887439040,9657485942,8446152560};
+vector<ll> freq{4,2,6,3};
 ll cost[10000][10000];
 ll order[10000][10000];
 ll root[10000];
